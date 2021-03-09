@@ -1,0 +1,214 @@
+.card
+{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-color: rgb(255, 255, 255);
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
+}
+
+.cards
+{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
+}
+
+.cardBloc
+{
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-top: none;
+}
+
+.cards
+{
+    font-weight: 400;
+}
+
+.card-body
+{
+    padding: 2% 8% 0 8%;
+}
+
+.bg-brown
+{
+    background-color: #FFC312;
+}
+
+.card-header h1
+{
+
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Petit Formal Script', 'TeX Gyre Chorus', cursive;
+}
+
+.center
+{
+    text-align: center;
+}
+
+form
+{
+    width: 100%;
+}
+
+img
+{
+    width: 110%;
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.loginMain {
+    width: 100%;
+    /*background-image: url(/assets/images/593760.jpg);*/
+    background-image: linear-gradient(91.18deg, #023E79 0%, #0E6258 100%);
+    /*opacity: 0.8667689732142857;*/
+    /*border-top-left-radius: 10% 50%;
+    border-bottom-left-radius: 10% 50%;
+    background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+    */
+}
+
+.armoirie
+{
+    width: 140%;
+    border-color: rgb(255, 255, 255);
+}
+
+.armoirie img
+{
+    position: absolute;
+    top: 12rem;
+}
+
+@media (min-width: 993px) {
+    .sousMain
+    {
+        margin-top: 3.5rem;
+    }
+}
+
+@media (max-width: 992px) {
+
+    .armoirie img
+    {
+        display: none;
+    }
+
+    .armoirie
+    {
+        width: 50%;
+    }
+
+    .card-body
+    {
+        padding: 8%;
+    }
+
+    img
+    {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .armoirie img
+    {
+        margin: -2rem 0 0 0;
+    }
+
+    .armoirie
+    {
+        width: 35%;
+        border-color: rgb(255, 255, 255);
+    }
+
+    .card-body
+    {
+        padding: 8%;
+    }
+}
+
+.pull-right {
+    float: right;
+}
+
+.btn-link
+{
+    color: #007bff;
+}
+
+.input-group-prepend span
+{
+    background-color: #FFC312;
+}
+
+.mt-4 .connexion
+{
+    margin-bottom: 1rem;
+}
+
+.connexion button
+{
+    background-color: #FFC312;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.connexion button:hover
+{
+    color: black;
+    background-color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: capitalize;
+    transition: all 0.5s ease-in-out;
+}
+
+.white-color
+{
+    color: white;
+}
+
+.black-color
+{
+    color: #000;
+    font-weight: bold;
+}
+
+.white-color a
+{
+    text-decoration: underline;
+    transition: all 0.5s ease-in-out;
+}
+
+.cards .card-body h1
+{
+    font-weight: bold;
+}
+
+.login-main-text
+{
+    background-color: #000;
+    margin-top: 20%;
+    padding: 60px;
+    color: #fff;
+}
+
+.bg-presidence
+{
+    background-image: linear-gradient(91.18deg, #023E79 0%, #0E6258 120%);
+    opacity: 2;
+}
+
+.material-icons {
+    height: 0;
+}
